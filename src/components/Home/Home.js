@@ -6,7 +6,7 @@ const Home = () => {
     <div className="home">
       <img
         className="home__img"
-        src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/AmazonPay/Avatar/HeroPC_3000x1200_SVA._CB667240774_.jpg" //Banner Image
+        src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG19/Furniture/Herotator/WFH/Offer/V2/WFH-Herotator-hero_3000x1200._CB405299567_.jpg" //Banner Image
         alt=""
       />
 
@@ -21,9 +21,9 @@ const Home = () => {
 
         <Product
           id={123567}
-          title="My second project is gonna be amazon, let's get started"
-          image="https://image01.oneplus.net/shop/202103/15/1-M00-22-09-rB8bwmBO1G-AO6MJAAChKvlT19g553.png"
-          price="80"
+          title="OnePlus Nord 2 5G (Gray Sierra, 8GB RAM, 128GB Storage)"
+          image="https://images-na.ssl-images-amazon.com/images/I/71KVeQql77S._SL1500_.jpg"
+          price="29,999"
           rating={5}
         />
 
@@ -71,6 +71,63 @@ const Home = () => {
       </div>
 
       <div className="home__row">
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
+
+        <Product
+          id={123567}
+          title="My second project let's get started."
+          image="https://images.samsung.com/is/image/samsung/in-rf9500kf-akg-rf28n9780sg-tl-frontblack-107074192?$720_576_PNG$"
+          price="80"
+          rating={5}
+        />
         <Product
           id={123567}
           title="My second project let's get started."
