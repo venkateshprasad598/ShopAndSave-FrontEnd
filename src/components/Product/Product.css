@@ -8,10 +8,12 @@
   padding: 20px;
   z-index: 1;
   width: 100%;
-  height: 400px;
+  min-width: 100px;
+  min-height: 400px;
 }
 .product__info {
   margin: 0 5px;
+  min-height: 100px;
 }
 
 .product__price {
@@ -24,9 +26,8 @@
 
 .product > img {
   width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: contain;
-  z-index: 1;
   margin-bottom: 5px;
 }
 
