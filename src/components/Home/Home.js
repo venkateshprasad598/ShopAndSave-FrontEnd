@@ -10,13 +10,39 @@ const Home = () => {
         alt=""
       />
 
-      <Product
-        id={123567}
-        title="My second project is gonna be amazon, let's get started"
-        image="https://image01.oneplus.net/shop/202103/15/1-M00-22-09-rB8bwmBO1G-AO6MJAAChKvlT19g553.png"
-        price="80"
-        rating={5}
-      />
+      <div className="home__row">
+        <Product
+          id={123567}
+          title="My second project let's get started.what"
+          image="https://image01.oneplus.net/shop/202103/15/1-M00-22-09-rB8bwmBO1G-AO6MJAAChKvlT19g553.png"
+          price="80"
+          rating={5}
+        />
+
+        <Product
+          id={123567}
+          title="My second project is gonna be amazon, let's get started"
+          image="https://image01.oneplus.net/shop/202103/15/1-M00-22-09-rB8bwmBO1G-AO6MJAAChKvlT19g553.png"
+          price="80"
+          rating={5}
+        />
+
+        <Product
+          id={123567}
+          title="My second project is gonna be amazon, let's get started"
+          image="https://image01.oneplus.net/shop/202103/15/1-M00-22-09-rB8bwmBO1G-AO6MJAAChKvlT19g553.png"
+          price="80"
+          rating={5}
+        />
+
+        <Product
+          id={123567}
+          title="My second project is gonna be amazon, let's get started"
+          image="https://image01.oneplus.net/shop/202103/15/1-M00-22-09-rB8bwmBO1G-AO6MJAAChKvlT19g553.png"
+          price="80"
+          rating={5}
+        />
+      </div>
     </div>
   );
 };
