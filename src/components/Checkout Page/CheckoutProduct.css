@@ -1,7 +1,6 @@
 .CheckoutProduct {
   display: flex;
   margin: 20px;
-  background-color: rgb(240, 236, 240);
 }
 
 .CheckoutProduct > img {
@@ -17,6 +16,10 @@
 .CheckoutProduct__title {
   font-size: 17px;
   font-weight: 700;
+}
+
+.CheckoutProduct__price {
+  margin-top: -15px;
 }
 
 .CheckoutProduct__rating {

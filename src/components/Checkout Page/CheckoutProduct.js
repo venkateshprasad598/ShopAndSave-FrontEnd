@@ -7,8 +7,8 @@ const CheckoutProduct = ({ id, title, image, price, rating }) => {
 
   //   console.log(id);
 
-  const removeFromBasket = (num) => {
-    dispatch({ type: "REMOVE" });
+  const removeFromBasket = () => {
+    dispatch({ type: "REMOVE", id: id });
   };
   return (
     <div className="CheckoutProduct">
@@ -28,13 +28,7 @@ const CheckoutProduct = ({ id, title, image, price, rating }) => {
               <p>⭐</p>
             ))}
         </div>
-        <button
-          onClick={() => {
-            removeFromBasket(id);
-          }}
-        >
-          Remove from basket
-        </button>
+        <button onClick={removeFromBasket}>Remove from basket</button>
       </div>
     </div>
   );

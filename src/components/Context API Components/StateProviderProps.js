@@ -8,14 +8,18 @@ export const reducer = (state, action) => {
     case "ADD_TO_BASKET":
       return { ...state, basket: [...state.basket, action.item] };
       break;
+    case "REMOVE":
+      let newBasket = [...state.basket]; //CLONE THE BASKET
+      const Index = state.basket.findIndex((data) => data.id === action.id); //FIND REMOVING ITEM INDEX
+      newBasket.splice(Index, 1); // SPLICE THE ITEM
+      if (Index >= 0) {
+        return {
+          ...state,
+          basket: newBasket,
+        };
+      } else {
+        console.log("Some error occured");
+      }
   }
-
-  const newBasket = [...state.basket];
-  const Index = state.basket.findIndex((data) => data.id === action.id);
-  newBasket.splice(Index, 1);
-  return {
-    ...state,
-    basket: newBasket,
-  };
 };
 // console.log(reducer());
