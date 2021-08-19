@@ -8,9 +8,7 @@ const CheckoutProduct = ({ id, title, image, price, rating }) => {
   //   console.log(id);
 
   const removeFromBasket = (num) => {
-    const newBasket = basket.filter((data) => data.id !== num);
-    console.log(newBasket);
-    dispatch({ type: "REMOVE", new: newBasket });
+    dispatch({ type: "REMOVE" });
   };
   return (
     <div className="CheckoutProduct">

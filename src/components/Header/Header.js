@@ -7,8 +7,9 @@ import { useStateValue } from "../Context API Components/StateProvider";
 
 const Header = () => {
   const [{ basket }] = useStateValue();
-  console.log(basket);
-
+  {
+    console.log(basket);
+  }
   return (
     <nav className="header">
       <Link to="/">
