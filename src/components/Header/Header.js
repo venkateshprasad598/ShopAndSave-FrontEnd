@@ -7,6 +7,7 @@ import { useStateValue } from "../Context API Components/StateProvider";
 
 const Header = () => {
   const [{ basket }] = useStateValue();
+  console.log(basket);
 
   return (
     <nav className="header">
@@ -45,7 +46,7 @@ const Header = () => {
           <div className="header__optionBasket">
             <ShopingBasketIcon />
             <span className="header__optionLineTwo header__basketCount">
-              {basket}
+              {basket?.length}
             </span>
           </div>
         </Link>

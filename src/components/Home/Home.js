@@ -12,85 +12,68 @@ const Home = () => {
 
       <div className="home__row">
         <Product
-          id={123567}
+          id={1}
           title="AmazonBasics 564 L Side-by-Side Door Refrigerator (Silver Steel Finish)"
           image="https://images-na.ssl-images-amazon.com/images/I/71DuofqGR8L._SX679_.jpg"
-          price="
-          M.R.P.:	₹40.00"
+          price={35000}
           rating={5}
         />
 
         <Product
-          id={123567}
+          id={2}
           title="OnePlus Nord 2 5G (Gray Sierra, 8GB RAM, 128GB Storage)"
           image="https://images-na.ssl-images-amazon.com/images/I/71KVeQql77S._SL1500_.jpg"
-          price="29,999"
+          price={29999}
           rating={5}
         />
 
         <Product
-          id={123567}
+          id={3}
           title="HP Pavilion Gaming 10th Gen Intel Core i5 Processor 15.6-inch(39.6 cm) FHD Gaming Laptop."
           image="https://images-na.ssl-images-amazon.com/images/I/611VHOvjkES._SL1080_.jpg"
-          price="63,999"
+          price={63999}
           rating={5}
         />
 
         <Product
-          id={123567}
+          id={4}
           title="Toshiba 7 Kg Fully Automatic Front Loading Washing Machine (‎TW-J80S2-IND, ‎White)"
           image="https://images-na.ssl-images-amazon.com/images/I/61I42mnhfTS._SL1500_.jpg"
-          price="26,990"
+          price={63999}
           rating={5}
         />
       </div>
 
       <div className="home__row">
         <Product
-          id={123567}
+          id={5}
           title="AmazonBasics 564 L Side-by-Side Door Refrigerator (Silver Steel Finish)"
           image="https://images-na.ssl-images-amazon.com/images/I/71DuofqGR8L._SX679_.jpg"
-          price="48,999"
+          price={5000}
           rating={5}
         />
 
         <Product
-          id={123567}
+          id={6}
           title="OnePlus Nord 2 5G (Gray Sierra, 8GB RAM, 128GB Storage)"
           image="https://images-na.ssl-images-amazon.com/images/I/71KVeQql77S._SL1500_.jpg"
-          price="29,999"
+          price={5000}
           rating={5}
         />
 
         <Product
-          id={123567}
+          id={7}
           title="HP Pavilion Gaming 10th Gen Intel Core i5 Processor 15.6-inch(39.6 cm) FHD Gaming Laptop."
           image="https://images-na.ssl-images-amazon.com/images/I/611VHOvjkES._SL1080_.jpg"
-          price="63,999"
+          price={5000}
           rating={5}
         />
 
         <Product
-          id={123567}
+          id={8}
           title="Toshiba 7 Kg Fully Automatic Front Loading Washing Machine (‎TW-J80S2-IND, ‎White)"
           image="https://images-na.ssl-images-amazon.com/images/I/61I42mnhfTS._SL1500_.jpg"
-          price="26,990"
-          rating={5}
-        />
-        <Product
-          id={123567}
-          title="Toshiba 7 Kg Fully Automatic Front Loading Washing Machine (‎TW-J80S2-IND, ‎White)"
-          image="https://images-na.ssl-images-amazon.com/images/I/61I42mnhfTS._SL1500_.jpg"
-          price="26,990"
-          rating={5}
-        />
-      </div>
-      <div className="home__row">
-        <Product
-          id={123567}
-          title="AmazonBasics 564 L Side-by-Side Door Refrigerator (Silver Steel Finish)"
-          image="https://images-na.ssl-images-amazon.com/images/I/71DuofqGR8L._SX679_.jpg"
-          price="48,999"
+          price={5000}
           rating={5}
         />
       </div>
