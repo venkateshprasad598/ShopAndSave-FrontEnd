@@ -3,10 +3,37 @@ import { Link } from "react-router-dom";
 import "./Login.css";
 import { auth } from "../firebase/firebase";
 import { useState } from "react";
+import { useHistory } from "react-router";
 
 const Login = () => {
+  const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+
+  const signIn = (e) => {
+    e.preventDefault();
+    auth
+      .signInWithEmailAndPassword(email, password)
+      .then((auth) => {
+        if (auth) {
+          history.push("/");
+        }
+      })
+      .catch((error) => console.alert(error.message));
+    //some Login Logic
+  };
+  const signUp = (e) => {
+    e.preventDefault();
+    auth
+      .createUserWithEmailAndPassword(email, password)
+      .then((auth) => {
+        console.log(auth);
+        if (auth) {
+          history.push("/");
+        }
+      })
+      .catch((error) => alert(error.message));
+  };
 
   return (
     <div className="login">
@@ -38,13 +65,16 @@ const Login = () => {
               type="password"
             />
           </div>
-          <button className="login__signInButton"> Sign In</button>
+          <button onClick={signIn} className="login__signInButton">
+            {" "}
+            Sign In
+          </button>
           <p className="login__terms">
             By signing-in you agree to the Demo AMAZON Conditions of Use & Sale.
             Please see our Privacy Notice, our Cookies Notice and our
             interest-Based Ads Notice.
           </p>
-          <button className="login__createButton">
+          <button onClick={signUp} className="login__createButton">
             Create Your Demo Amazon Account
           </button>
         </form>
