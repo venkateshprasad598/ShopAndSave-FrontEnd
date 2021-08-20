@@ -18,13 +18,8 @@
   font-weight: 700;
 }
 
-.CheckoutProduct__price {
-  margin-top: -15px;
-}
-
 .CheckoutProduct__rating {
   display: flex;
-  margin-top: -30px;
 }
 
 .CheckoutProduct__info > button {
@@ -33,5 +28,4 @@
   border-color: #a88734 #9c7e31 #846a29;
   border-radius: 2px;
   margin-top: 10px;
-  margin-bottom: -10px;
 }

@@ -1,6 +1,5 @@
 .checkout {
   background-color: white;
-  min-height: 565px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -13,5 +12,4 @@
 
 .checkout__right {
   padding-right: 10px;
-  margin-top: -20px;
 }
