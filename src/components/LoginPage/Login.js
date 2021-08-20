@@ -1,8 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Login.css";
+import { auth } from "../firebase/firebase";
+import { useState } from "react";
 
 const Login = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
   return (
     <div className="login">
       <Link to="/">
@@ -18,12 +23,20 @@ const Login = () => {
         <form>
           <div className="login__email">
             <h5>E-mail</h5>
-            <input type="text" />
+            <input
+              onChange={(e) => setEmail(e.target.value)}
+              type="text"
+              value={email}
+            />
           </div>
 
           <div className="login__password">
             <h5>Password</h5>
-            <input type="password" />
+            <input
+              onChange={(e) => setPassword(e.target.value)}
+              value={password}
+              type="password"
+            />
           </div>
           <button className="login__signInButton"> Sign In</button>
           <p className="login__terms">
