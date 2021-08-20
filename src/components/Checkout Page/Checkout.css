@@ -2,7 +2,8 @@
   background-color: white;
   min-height: 565px;
   display: flex;
-  width: ;
+  flex-direction: row;
+  width: 100%;
 }
 
 .checkout__ad {
