@@ -1,0 +1,35 @@
+.promo {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  z-index: 1;
+  min-height: 400px;
+  width: 100%;
+  margin: 10px;
+  min-width: 100px;
+}
+.promo__images {
+  display: flex;
+  flex-direction: column;
+}
+
+.promo__image1and2 {
+  display: flex;
+}
+
+.promo__image3and4 {
+  display: flex;
+}
+
+.promo__image1 {
+  height: 100px;
+}
+.promo__image2 {
+  height: 100px;
+}
+.promo__image3 {
+  height: 100px;
+}
+.promo__image4 {
+  height: 100px;
+}

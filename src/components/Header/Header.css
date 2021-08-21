@@ -59,7 +59,12 @@
   display: flex;
   align-items: center;
 }
+.header__basket {
+  margin-top: 15px;
+  font-weight: 700;
+}
 
 .header__basketCount {
-  margin: 0 10px;
+  margin-right: 10px;
+  margin-left: 5px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import Promo from "../Promo/Promo";
 import Product from "../Product/Product";
 const Home = () => {
   return (
@@ -9,6 +10,21 @@ const Home = () => {
         src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/gateway/placement/launch/TheTomorrowWar/TWAR_2021_GWBleedingHero_FT_COVIDUPDATE_XSite_3000X1200_PV_en-GB._CB665379733_.jpg" //Banner Image
         alt=""
       />
+
+      <div className="home__row">
+        <Promo
+          title="Top picks for your home"
+          image1="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
+          subtitle1="ACs"
+          image2="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
+          subtitle2="Refrigerators"
+          image3="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
+          subtitle3="Microwaves"
+          image4="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
+          subtitle4="Washing machines"
+          bio="See more"
+        />
+      </div>
 
       <div className="home__row">
         <Product

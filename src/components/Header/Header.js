@@ -45,18 +45,13 @@ const Header = () => {
         <Link to="/" className="header__link">
           <div className="header__option">
             <span className="header__optionLineOne">Returns</span>
-            <span className="header__optionLineTwo">Orders</span>
-          </div>
-        </Link>
-        <Link to="/" className="header__link">
-          <div className="header__option">
-            <span className="header__optionLineOne">Your</span>
-            <span className="header__optionLineTwo">Prime</span>
+            <span className="header__optionLineTwo"> & Orders</span>
           </div>
         </Link>
         <Link to="/checkout" className="header__link">
           <div className="header__optionBasket">
             <ShopingBasketIcon />
+            <small className="header__basket">Basket</small>
             <span className="header__optionLineTwo header__basketCount">
               {basket?.length}
             </span>
