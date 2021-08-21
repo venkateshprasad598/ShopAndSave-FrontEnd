@@ -3,6 +3,7 @@ import "./Home.css";
 import Promo from "../Promo/Promo";
 import Product from "../Product/Product";
 import SignIn from "../SignInPage/SignIn";
+import Footer from "../Footer/Footer";
 const Home = () => {
   return (
     <div className="home">
@@ -123,6 +124,8 @@ const Home = () => {
           rating={5}
         />
       </div>
+
+      <Footer />
     </div>
   );
 };
