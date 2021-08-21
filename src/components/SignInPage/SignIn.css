@@ -1,0 +1,30 @@
+.signIn__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* margin: 10px; */
+  z-index: 1;
+  background-color: white;
+  height: 120px;
+  /* width: 100%; */
+  width: 270px;
+  display: block;
+}
+.signIn__title {
+  font-weight: 650;
+  margin-bottom: 10px;
+}
+
+.signIn__button {
+  background-color: #ffd904;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(70, 69, 69);
+  width: 100%;
+  margin-bottom: 15px;
+}

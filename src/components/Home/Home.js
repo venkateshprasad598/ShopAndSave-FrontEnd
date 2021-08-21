@@ -2,6 +2,7 @@ import React from "react";
 import "./Home.css";
 import Promo from "../Promo/Promo";
 import Product from "../Product/Product";
+import SignIn from "../SignInPage/SignIn";
 const Home = () => {
   return (
     <div className="home">
@@ -25,42 +26,34 @@ const Home = () => {
           bio="See more"
         />
         <Promo
-          title="Top picks for your home"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
-          subtitle1="ACs"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
-          subtitle2="Refrigerators"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
-          subtitle3="Microwaves"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
-          subtitle4="Washing machines"
-          bio="See more"
+          title="Styles for Women | Up to 70% off"
+          image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/5-min._SY116_CB666463598_.jpg"
+          subtitle1="Women's Clothing"
+          image2="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/6-min._SY116_CB666463598_.jpg"
+          subtitle2="Footwear+Handbags"
+          image3="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/8-min._SY116_CB666463598_.jpg"
+          subtitle3="Watches"
+          image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/7-min._SY116_CB666463598_.jpg"
+          subtitle4="Fashion Jewellery"
+          bio="End of Season Sale"
+        />
+        <Promo
+          title="Style for Men | Up to 70% off"
+          image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/1-min._SY116_CB666463598_.jpg"
+          subtitle1="Clothing"
+          image2="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/2-min._SY116_CB666463598_.jpg"
+          subtitle2="Footwear"
+          image3="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/4-min._SY116_CB666463598_.jpg"
+          subtitle3="Watches"
+          image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/3-min._SY116_CB666463598_.jpg"
+          subtitle4="Bags & Luggage"
+          bio="End of Season Sale"
         />
 
-        <Promo
-          title="Top picks for your home"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
-          subtitle1="ACs"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
-          subtitle2="Refrigerators"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
-          subtitle3="Microwaves"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
-          subtitle4="Washing machines"
-          bio="See more"
-        />
-        <Promo
-          title="Top picks for your home"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
-          subtitle1="ACs"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
-          subtitle2="Refrigerators"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
-          subtitle3="Microwaves"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
-          subtitle4="Washing machines"
-          bio="See more"
-        />
+        <div className="signIn__block">
+          <SignIn title="Sign in for your best experience" />
+          <img className="home__giftCard" />
+        </div>
       </div>
 
       <div className="home__row">

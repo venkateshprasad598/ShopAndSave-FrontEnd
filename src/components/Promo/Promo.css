@@ -60,3 +60,14 @@
   font-weight: 600;
   color: rgb(73, 73, 73);
 }
+
+.promo__bio {
+  font-size: 13px;
+  color: #317da7;
+  font-weight: 600;
+  text-decoration: none;
+}
+.promo__bio:hover {
+  text-decoration: underline;
+  color: rgb(216, 83, 34);
+}

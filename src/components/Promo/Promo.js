@@ -12,6 +12,7 @@ const Promo = ({
   subtitle2,
   subtitle3,
   subtitle4,
+  id,
 }) => {
   return (
     <div className="promo">
@@ -42,8 +43,11 @@ const Promo = ({
               <p className="promo__subtitle">{subtitle4}</p>
             </div>
           </div>
+
+          <a className="promo__bio" href="#">
+            {bio}
+          </a>
         </div>
-        <span>{bio}</span>
       </div>
     </div>
   );
