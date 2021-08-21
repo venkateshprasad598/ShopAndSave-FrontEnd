@@ -8,17 +8,14 @@
   padding: 20px;
   z-index: 1;
   width: 100%;
-  min-width: 100px;
-  min-height: 200px;
+  width: 300px;
+  min-height: 300px;
 }
 .product__info {
   margin: 0 5px;
   min-height: 100px;
 }
 
-.product__price {
-  /* margin-top: -10px; */
-}
 .product__rating {
   display: flex;
 }
@@ -36,5 +33,4 @@
   border-color: #a88734 #9c7e31 #846a29;
   border-radius: 2px;
   margin-top: 10px;
-  /* margin-bottom: -10px; */
 }

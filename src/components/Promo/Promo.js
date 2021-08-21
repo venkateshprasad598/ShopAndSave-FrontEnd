@@ -15,34 +15,36 @@ const Promo = ({
 }) => {
   return (
     <div className="promo">
-      <h1>{title}</h1>
+      <div>
+        <h2 className="promo__title">{title}</h2>
 
-      <div className="promo_images">
-        <div className="promo__image1and2">
-          <div>
-            <img className="promo__image1" src={image1} alt="" />
-            <p className="promo__subtitle">{subtitle1}</p>
+        <div className="promo_images">
+          <div className="promo__image1and2">
+            <div>
+              <img className="promo__image1" src={image1} alt="" />
+              <p className="promo__subtitle">{subtitle1}</p>
+            </div>
+
+            <div>
+              <img className="promo__image2" src={image2} alt="" />
+              <p className="promo__subtitle">{subtitle2}</p>
+            </div>
           </div>
 
-          <div>
-            <img className="promo__image2" src={image2} alt="" />
-            <p className="promo__subtitle">{subtitle2}</p>
+          <div className="promo__image3and4">
+            <div>
+              <img className="promo__image3" src={image3} alt="" />
+              <p className="promo__subtitle">{subtitle3}</p>
+            </div>
+
+            <div>
+              <img className="promo__image4" src={image4} alt="" />
+              <p className="promo__subtitle">{subtitle4}</p>
+            </div>
           </div>
         </div>
-
-        <div className="promo__image3and4">
-          <div>
-            <img className="promo__image3" src={image3} alt="" />
-            <p className="promo__subtitle">{subtitle3}</p>
-          </div>
-
-          <div>
-            <img className="promo__image4" src={image4} alt="" />
-            <p className="promo__subtitle">{subtitle4}</p>
-          </div>
-        </div>
+        <span>{bio}</span>
       </div>
-      <span>{bio}</span>
     </div>
   );
 };
