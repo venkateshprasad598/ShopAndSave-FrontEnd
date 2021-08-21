@@ -1,6 +1,6 @@
 .checkout {
   background-color: white;
-  height: max-content;
+  min-height: 100vh;
   display: flex;
   flex-direction: row;
   width: 100%;
