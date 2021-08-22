@@ -1,0 +1,38 @@
+.footerBottom {
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* width: 50%; */
+}
+.footerBottom__logo {
+  height: 30px;
+  width: 100%;
+  object-fit: contain;
+}
+.footerBottom__countries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footerBottom__countriesName {
+  color: rgb(238, 236, 236);
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.footerBottom__countriesName:hover {
+  text-decoration: underline;
+}
+.footer__copyright {
+  display: flex;
+  margin-top: 30px;
+}
+.footer__copyrightName {
+  color: rgb(238, 236, 236);
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+}

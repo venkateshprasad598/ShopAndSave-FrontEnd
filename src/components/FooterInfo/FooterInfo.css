@@ -3,10 +3,13 @@
   flex-direction: column;
   flex-wrap: wrap;
   align-items: flex-start;
+  /* background-color: gray; */
+  margin: 40px;
+  margin-right: 60px;
 }
 
 .footerInfo__title {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 10px;
   font-size: 18px;
   color: white;
@@ -18,4 +21,8 @@
   font-size: 14px;
   font-weight: 400;
   margin-bottom: 5px;
+}
+
+.footerInfo__subtitle:hover {
+  text-decoration: underline;
 }

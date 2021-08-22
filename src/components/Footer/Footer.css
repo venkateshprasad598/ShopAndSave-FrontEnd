@@ -1,5 +1,6 @@
 .footer {
   margin-top: 20px;
+  width: 100%;
 }
 
 .footer__backToTopText {
@@ -19,7 +20,21 @@
   background-color: #495a6d;
 }
 
-.footer__info {
-  height: 400px;
+.footer__Info {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer__socialInfo {
   background-color: #232f3e;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.footer__bottom {
+  margin-top: 20px;
+  background-color: #131a22;
+  height: 200px;
 }
