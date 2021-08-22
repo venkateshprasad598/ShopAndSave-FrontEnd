@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home">
       <img
         className="home__img"
-        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/gateway/placement/launch/TheTomorrowWar/TWAR_2021_GWBleedingHero_FT_COVIDUPDATE_XSite_3000X1200_PV_en-GB._CB665379733_.jpg" //Banner Image
+        src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Shershaah/Launch/3000x1200_Hero-Tall_NP._CB644374659_.jpg" //Banner Image
         alt=""
       />
 
@@ -121,14 +121,14 @@ const Home = () => {
           title="Nike revolution 5 Lace-Up Sports Shoes"
           image="https://media.gq.com/photos/60edfcd518480638c840d05b/master/w_2000,h_1333,c_limit/Nike-Air-Zoom-Terra-Kiger-7-shoe.jpg"
           price={4000}
-          rating={5}
+          rating={4}
         />
         <Product
           id={6}
           title="Amazon Brand - Jam & Honey Teddy Bear Soft Toy (100 Cm, Beige)"
           image="https://m.media-amazon.com/images/I/61bIkFkmhDL._AC_UL320_.jpg"
           price={5000}
-          rating={4}
+          rating={3}
         />
       </div>
 
@@ -153,7 +153,7 @@ const Home = () => {
           title="Fossil Gen 5 Carlyle Stainless Steel Touchscreen Men's Smartwatch with Speaker, Heart Rate, GPS and Smartphone"
           image="https://m.media-amazon.com/images/I/71XWG48C-NL._UX679_.jpg"
           price={21000}
-          rating={5}
+          rating={3}
         />
 
         <Product
