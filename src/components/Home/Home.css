@@ -18,11 +18,10 @@
 .signIn__block {
   display: flex;
   flex-direction: column;
-  width: 320px;
-  /* background-color: green; */
+  width: 100%;
   margin: 10px;
-  /* border: 1px solid black; */
   align-items: center;
+  background-color: violet;
 }
 
 .home__giftCard {
@@ -36,4 +35,11 @@
   background-image: url("https://m.media-amazon.com/images/G/02/UK-hq/2020/img/Giftcard/XCM_Manual_1297631_1519586_UK_uk_holiday_house_ads_ukgc_gb_en_3609798_300x250_en_GB.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.home__bottomImage {
+  background-color: white;
+  padding: 30px 60px;
+  width: 88%;
+  margin: 20px;
 }

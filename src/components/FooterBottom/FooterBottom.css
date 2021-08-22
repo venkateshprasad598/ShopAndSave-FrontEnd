@@ -36,3 +36,6 @@
   font-size: 12px;
   font-weight: 400;
 }
+.footer__copyrightName:hover {
+  text-decoration: underline;
+}

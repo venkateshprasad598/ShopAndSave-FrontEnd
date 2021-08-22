@@ -4,11 +4,10 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  /* margin: 10px; */
   z-index: 1;
   background-color: white;
   height: 120px;
-  /* width: 100%; */
+  width: 100%;
   width: 270px;
   display: block;
 }

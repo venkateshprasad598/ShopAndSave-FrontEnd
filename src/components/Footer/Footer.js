@@ -28,7 +28,7 @@ const Footer = () => {
             line3="instagram"
           />
           <FooterInfo
-            title="Mae Money with Us"
+            title="Make Money with Us"
             line1="Sell on Amazon"
             line2="Sell under Amazon Accelerator"
             line3="Amazon Global Selling"
