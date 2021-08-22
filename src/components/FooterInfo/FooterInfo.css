@@ -1,0 +1,21 @@
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.footerInfo__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: white;
+}
+
+.footerInfo__subtitle {
+  color: rgb(238, 236, 236);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}

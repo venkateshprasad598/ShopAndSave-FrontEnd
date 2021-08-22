@@ -1,5 +1,5 @@
 import Recat from "react";
-
+import "./FooterInfo.css";
 const FooterInfo = ({
   title,
   line1,
@@ -11,7 +11,7 @@ const FooterInfo = ({
   line7,
 }) => {
   return (
-    <div>
+    <div className="footer__info">
       <h2 className="footerInfo__title">{title}</h2>
       <a href="#" className="footerInfo__subtitle">
         {line1}

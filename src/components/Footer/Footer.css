@@ -18,3 +18,8 @@
 .footer__backToTopText:hover {
   background-color: #495a6d;
 }
+
+.footer__info {
+  height: 400px;
+  background-color: #232f3e;
+}
