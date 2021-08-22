@@ -5,12 +5,13 @@
 
 .CheckoutProduct > img {
   object-fit: contain;
-  min-width: 180px;
+  width: 180px;
   height: 180px;
+  margin-right: 20px;
 }
 
 .CheckoutProduct__info {
-  margin-left: 20px;
+  width: 50%;
 }
 
 .CheckoutProduct__title {

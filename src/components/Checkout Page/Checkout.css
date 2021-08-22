@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  /* padding: 20px; */
 }
 
 .checkout__ad {
@@ -14,8 +13,4 @@
 
 .checkout__heading {
   margin-left: 10px;
-}
-
-.checkout__right {
-  /* padding-right: 10px; */
 }

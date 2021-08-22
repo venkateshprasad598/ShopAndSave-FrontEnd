@@ -2,7 +2,6 @@ import React from "react";
 import "./Home.css";
 import Promo from "../Promo/Promo";
 import Product from "../Product/Product";
-import SignIn from "../SignInPage/SignIn";
 import Footer from "../Footer/Footer";
 const Home = () => {
   return (
@@ -53,18 +52,18 @@ const Home = () => {
         {/* <div className="signIn__block">
           <SignIn title="Sign in for your best experience" />
           <img className="home__giftCard" />
+        //Sign in function in the page, Work on it, get it done.
         </div> */}
-
         <Promo
-          title="Style for Men | Up to 70% off"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/1-min._SY116_CB666463598_.jpg"
-          subtitle1="Clothing"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/2-min._SY116_CB666463598_.jpg"
-          subtitle2="Footwear"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/4-min._SY116_CB666463598_.jpg"
-          subtitle3="Watches"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/3-min._SY116_CB666463598_.jpg"
-          subtitle4="Bags & Luggage"
+          title="Shop by Category | Up to 70% off"
+          image1="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY116_CB431401553_.jpg"
+          subtitle1="Fresh"
+          image2="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Mobile._SY116_CB431401553_.jpg"
+          subtitle2="Mobiles"
+          image3="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fashion._SY116_CB431401553_.jpg"
+          subtitle3="Fashion"
+          image4="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Electronic._SY116_CB431401553_.jpg"
+          subtitle4="Electronics"
           bio="End of Season Sale"
         />
       </div>
@@ -99,6 +98,15 @@ const Home = () => {
           rating={5}
         />
       </div>
+      <div className="home__row">
+        <Product
+          id={7}
+          title="LG Ultragear 100cm G-Sync Compatible Curved Ultrawide, 1ms, 144Hz, HDR 10, IPS Gaming Monitor."
+          image="https://m.media-amazon.com/images/I/61cFCZayTSL._AC_SL1500_.jpg"
+          price={100000}
+          rating={5}
+        />
+      </div>
 
       <div className="home__row">
         <Product
@@ -110,9 +118,9 @@ const Home = () => {
         />
         <Product
           id={7}
-          title="LG Ultragear 100cm G-Sync Compatible Curved Ultrawide, 1ms, 144Hz, HDR 10, IPS Gaming Monitor."
-          image="https://www.mwave.com.au/images/400/AC21477.jpg"
-          price={100000}
+          title="Nike revolution 5 Lace-Up Sports Shoes"
+          image="https://media.gq.com/photos/60edfcd518480638c840d05b/master/w_2000,h_1333,c_limit/Nike-Air-Zoom-Terra-Kiger-7-shoe.jpg"
+          price={4000}
           rating={5}
         />
         <Product
@@ -156,11 +164,13 @@ const Home = () => {
           rating={5}
         />
       </div>
-      <img
-        className="home__bottomImage"
-        src="https://images-eu.ssl-images-amazon.com/images/G/02/SBP/2021/Evergreen_Homepage/AMA026_Separate_SMB_Storefront_Request_Editorial_1150x323_Blue_ST3._CB644987670_.jpg"
-        alt=""
-      />
+      <div>
+        <img
+          className="home__bottomImage"
+          src="https://images-eu.ssl-images-amazon.com/images/G/02/SBP/2021/Evergreen_Homepage/AMA026_Separate_SMB_Storefront_Request_Editorial_1150x323_Blue_ST3._CB644987670_.jpg"
+          alt=""
+        />
+      </div>
 
       <Footer />
     </div>
