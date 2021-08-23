@@ -8,11 +8,13 @@ const Home = () => {
     <div className="home">
       <img
         className="home__img"
-        src="https://images-eu.ssl-images-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Shershaah/Launch/3000x1200_Hero-Tall_NP._CB644374659_.jpg" //Banner Image
+        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/gateway/placement/launch/TheTomorrowWar/TWAR_2021_GWBleedingHero_FT_COVIDUPDATE_XSite_3000X1200_PV_en-GB._CB665379733_.jpg" //Banner Image
         alt=""
       />
 
       <div className="home__row">
+        {/*
+        Working on updating the App
         <Promo
           title="Top picks for your home"
           image1="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
@@ -24,8 +26,8 @@ const Home = () => {
           image4="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
           subtitle4="Washing machines"
           bio="See more"
-        />
-        <Promo
+        /> */}
+        {/* <Promo
           title="Styles for Women | Up to 70% off"
           image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/5-min._SY116_CB666463598_.jpg"
           subtitle1="Women's Clothing"
@@ -36,8 +38,8 @@ const Home = () => {
           image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/7-min._SY116_CB666463598_.jpg"
           subtitle4="Fashion Jewellery"
           bio="End of Season Sale"
-        />
-        <Promo
+        /> */}
+        {/* <Promo
           title="Style for Men | Up to 70% off"
           image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/1-min._SY116_CB666463598_.jpg"
           subtitle1="Clothing"
@@ -48,13 +50,13 @@ const Home = () => {
           image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/3-min._SY116_CB666463598_.jpg"
           subtitle4="Bags & Luggage"
           bio="End of Season Sale"
-        />
+        /> */}
         {/* <div className="signIn__block">
           <SignIn title="Sign in for your best experience" />
           <img className="home__giftCard" />
         //Sign in function in the page, Work on it, get it done.
         </div> */}
-        <Promo
+        {/* <Promo
           title="Shop by Category | Up to 70% off"
           image1="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY116_CB431401553_.jpg"
           subtitle1="Fresh"
@@ -65,7 +67,9 @@ const Home = () => {
           image4="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Electronic._SY116_CB431401553_.jpg"
           subtitle4="Electronics"
           bio="End of Season Sale"
-        />
+        /> 
+        Working on Updating the App
+        */}
       </div>
 
       <div className="home__row">
@@ -90,13 +94,6 @@ const Home = () => {
           price={74990}
           rating={2}
         />
-        <Product
-          id={5}
-          title="Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! "
-          image="https://images-eu.ssl-images-amazon.com/images/I/51u2E5fNq8L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
-          price={500}
-          rating={5}
-        />
       </div>
       <div className="home__row">
         <Product
@@ -104,6 +101,23 @@ const Home = () => {
           title="LG Ultragear 100cm G-Sync Compatible Curved Ultrawide, 1ms, 144Hz, HDR 10, IPS Gaming Monitor."
           image="https://m.media-amazon.com/images/I/61cFCZayTSL._AC_SL1500_.jpg"
           price={100000}
+          rating={5}
+        />
+      </div>
+
+      <div className="home__row">
+        <Product
+          id={8}
+          title="Lavie Faroe Women's Satchel Handbag"
+          image="https://m.media-amazon.com/images/I/81Y4I3U-mDS._AC_UL480_FMwebp_QL65_.jpg"
+          price={3000}
+          rating={5}
+        />
+        <Product
+          id={5}
+          title="Rich Dad Poor Dad: What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! "
+          image="https://images-eu.ssl-images-amazon.com/images/I/51u2E5fNq8L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+          price={500}
           rating={5}
         />
       </div>
@@ -155,23 +169,7 @@ const Home = () => {
           price={21000}
           rating={3}
         />
-
-        <Product
-          id={8}
-          title="Lavie Faroe Women's Satchel Handbag"
-          image="https://m.media-amazon.com/images/I/81Y4I3U-mDS._AC_UL480_FMwebp_QL65_.jpg"
-          price={3000}
-          rating={5}
-        />
       </div>
-      <div>
-        <img
-          className="home__bottomImage"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/SBP/2021/Evergreen_Homepage/AMA026_Separate_SMB_Storefront_Request_Editorial_1150x323_Blue_ST3._CB644987670_.jpg"
-          alt=""
-        />
-      </div>
-
       <Footer />
     </div>
   );

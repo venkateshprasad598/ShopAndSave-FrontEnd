@@ -1,9 +1,8 @@
 .checkout {
-  background-color: white;
-  min-height: 100vh;
   display: flex;
-  flex-direction: row;
-  width: 100%;
+  padding: 20px;
+  background-color: white;
+  height: max-content;
 }
 
 .checkout__ad {

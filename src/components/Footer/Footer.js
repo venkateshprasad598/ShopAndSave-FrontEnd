@@ -34,10 +34,8 @@ const Footer = () => {
             line3="Amazon Global Selling"
             line4="Become an Affiliate"
             line5="Fulfilment by Amazon"
-            line6="Adverse Your Products"
-            line7="Amazon Pay on Merchants"
           />
-          <FooterInfo
+          {/* <FooterInfo
             title="Let Us Help You"
             line1="Covid-19 and Amazon"
             line2="Returns Centre"
@@ -46,7 +44,7 @@ const Footer = () => {
             line5="Amazon Assistant Download"
             line6="Your Account"
             line7="Help"
-          />
+          /> */}
         </div>
         <div className="footer__bottom">
           <FooterBottom />
