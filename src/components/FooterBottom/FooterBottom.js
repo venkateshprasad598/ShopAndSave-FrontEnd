@@ -47,10 +47,6 @@ const FooterBottom = () => {
           <a href="#" className="footer__copyrightName">
             Conditions of Use & Sale
           </a>
-          {/* <a href="#" className="footer__copyrightName">
-            Privacy Notice
-          </a> */}
-
           <a href="#" className="footer__copyrightName">
             © 1996-2021, Amazon.com, Inc. or its affiliates
           </a>

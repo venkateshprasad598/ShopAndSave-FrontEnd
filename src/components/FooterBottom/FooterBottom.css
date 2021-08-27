@@ -39,3 +39,25 @@
 .footer__copyrightName:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 700px) {
+  .footer__copyrightName {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footerBottom__countriesName {
+    color: rgb(238, 236, 236);
+    text-decoration: none;
+    margin-right: 3px;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  .footer__copyrightName {
+    color: rgb(238, 236, 236);
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

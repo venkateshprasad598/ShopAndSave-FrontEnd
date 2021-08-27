@@ -7,7 +7,6 @@
   margin: 40px;
   margin-right: 60px;
 }
-
 .footerInfo__title {
   /* margin-top: 30px; */
   margin-bottom: 10px;
@@ -25,4 +24,13 @@
 
 .footerInfo__subtitle:hover {
   text-decoration: underline;
+}
+@media (max-width: 700px) {
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 20px;
+  }
 }
