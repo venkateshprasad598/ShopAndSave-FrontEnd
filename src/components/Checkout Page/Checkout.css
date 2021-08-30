@@ -1,8 +1,10 @@
 .checkout {
   display: flex;
+  flex-direction: column;
   padding: 20px;
   background-color: white;
   height: max-content;
+  align-items: center;
 }
 
 .checkout__ad {
@@ -12,4 +14,8 @@
 
 .checkout__heading {
   margin-left: 10px;
+}
+
+.checkout__right {
+  margin-top: 10px;
 }
