@@ -1,7 +1,6 @@
 import React from "react";
 import "./Footer.css";
 import FooterInfo from "../FooterInfo/FooterInfo";
-import FooterBottom from "../FooterBottom/FooterBottom";
 
 const Footer = () => {
   return (
@@ -35,19 +34,6 @@ const Footer = () => {
             line4="Become an Affiliate"
             line5="Fulfilment by Amazon"
           />
-          {/* <FooterInfo
-            title="Let Us Help You"
-            line1="Covid-19 and Amazon"
-            line2="Returns Centre"
-            line3="100% Purchase Protection"
-            line4="Amazon App Download"
-            line5="Amazon Assistant Download"
-            line6="Your Account"
-            line7="Help"
-          /> */}
-        </div>
-        <div className="footer__bottom">
-          <FooterBottom />
         </div>
       </div>
     </div>

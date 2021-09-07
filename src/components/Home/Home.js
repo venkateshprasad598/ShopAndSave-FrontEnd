@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import Promo from "../Promo/Promo";
 import Product from "../Product/Product";
 import Footer from "../Footer/Footer";
 const Home = () => {
@@ -11,66 +10,6 @@ const Home = () => {
         src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/gateway/placement/launch/TheTomorrowWar/TWAR_2021_GWBleedingHero_FT_COVIDUPDATE_XSite_3000X1200_PV_en-GB._CB665379733_.jpg" //Banner Image
         alt=""
       />
-
-      <div className="home__row">
-        {/*
-        Working on updating the App
-        <Promo
-          title="Top picks for your home"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg"
-          subtitle1="ACs"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg"
-          subtitle2="Refrigerators"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg"
-          subtitle3="Microwaves"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg"
-          subtitle4="Washing machines"
-          bio="See more"
-        /> */}
-        {/* <Promo
-          title="Styles for Women | Up to 70% off"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/5-min._SY116_CB666463598_.jpg"
-          subtitle1="Women's Clothing"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/6-min._SY116_CB666463598_.jpg"
-          subtitle2="Footwear+Handbags"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/8-min._SY116_CB666463598_.jpg"
-          subtitle3="Watches"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/7-min._SY116_CB666463598_.jpg"
-          subtitle4="Fashion Jewellery"
-          bio="End of Season Sale"
-        /> */}
-        {/* <Promo
-          title="Style for Men | Up to 70% off"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/1-min._SY116_CB666463598_.jpg"
-          subtitle1="Clothing"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/2-min._SY116_CB666463598_.jpg"
-          subtitle2="Footwear"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/4-min._SY116_CB666463598_.jpg"
-          subtitle3="Watches"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Fashion/Event/Gateway/WRS-Jun/PC_QC_186/Comp-186/3-min._SY116_CB666463598_.jpg"
-          subtitle4="Bags & Luggage"
-          bio="End of Season Sale"
-        /> */}
-        {/* <div className="signIn__block">
-          <SignIn title="Sign in for your best experience" />
-          <img className="home__giftCard" />
-        //Sign in function in the page, Work on it, get it done.
-        </div> */}
-        {/* <Promo
-          title="Shop by Category | Up to 70% off"
-          image1="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fresh._SY116_CB431401553_.jpg"
-          subtitle1="Fresh"
-          image2="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Mobile._SY116_CB431401553_.jpg"
-          subtitle2="Mobiles"
-          image3="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Fashion._SY116_CB431401553_.jpg"
-          subtitle3="Fashion"
-          image4="https://images-eu.ssl-images-amazon.com/images/G/31/img19/2020/PC/Electronic._SY116_CB431401553_.jpg"
-          subtitle4="Electronics"
-          bio="End of Season Sale"
-        /> 
-        Working on Updating the App
-        */}
-      </div>
 
       <div className="home__row">
         <Product

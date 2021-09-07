@@ -21,7 +21,7 @@
 }
 
 .footer__Info {
-  min-height: 350px;
+  min-height: 200px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -29,7 +29,7 @@
 
 .footer__socialInfo {
   background-color: #232f3e;
-  height: 400px;
+  height: 300px;
   display: flex;
   flex-direction: column;
 }
