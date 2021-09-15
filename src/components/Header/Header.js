@@ -17,12 +17,8 @@ const Header = () => {
   };
   return (
     <nav className="header">
-      <Link to="/">
-        <img
-          className="header__logo"
-          src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
-          alt=""
-        />
+      <Link to="/" className="link">
+        <h1 className="header__logo">SHOP & SAVE</h1>
       </Link>
       <div className="header__search">
         <input type="text" className="header__searchInput" />
@@ -42,12 +38,7 @@ const Header = () => {
             </span>
           </div>
         </Link>
-        <Link to="/" className="header__link">
-          <div className="header__option">
-            <span className="header__optionLineOne">Returns</span>
-            <span className="header__optionLineTwo"> & Orders</span>
-          </div>
-        </Link>
+
         <Link to="/checkout" className="header__link">
           <div className="header__optionBasket">
             <ShopingBasketIcon />

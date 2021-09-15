@@ -1,7 +1,16 @@
 .login__logo {
-  width: 100px;
   object-fit: contain;
   margin: 20px auto;
+  font-size: 2rem;
+  font-weight: 800;
+  color: black;
+}
+.login__name {
+  text-decoration: none;
+}
+.login__underline {
+  height: 1rem;
+  color: #3a2e10;
 }
 
 .login {

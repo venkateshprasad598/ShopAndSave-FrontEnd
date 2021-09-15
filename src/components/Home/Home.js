@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <img
         className="home__img"
-        src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/gateway/placement/launch/TheTomorrowWar/TWAR_2021_GWBleedingHero_FT_COVIDUPDATE_XSite_3000X1200_PV_en-GB._CB665379733_.jpg" //Banner Image
+        src="https://m.media-amazon.com/images/I/91xS6KMUwsL._SX3000_.jpg" //Banner Image
         alt=""
       />
 

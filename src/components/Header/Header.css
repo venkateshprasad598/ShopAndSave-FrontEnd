@@ -8,11 +8,15 @@
 }
 
 .header__logo {
-  width: 100px;
-  margin-left: 20px;
-  margin-top: 18px;
-  margin-right: 20px;
+  width: 170px;
+  margin: 5px 5px;
   object-fit: contain;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 800;
+}
+.link {
+  text-decoration: none;
 }
 
 .header__search {
@@ -35,6 +39,7 @@
 .header__nav {
   display: flex;
   justify-content: space-evenly;
+  margin: 10px auto;
 }
 .header__link {
   color: white;
@@ -67,4 +72,24 @@
 .header__basketCount {
   margin-right: 10px;
   margin-left: 5px;
+}
+@media (max-width: 500px) {
+  .header {
+    background-color: #131921;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header__logo {
+    width: 100px;
+    margin: 10px 10px;
+    object-fit: contain;
+    font-size: 0.9rem;
+    color: white;
+    font-weight: 800;
+  }
 }

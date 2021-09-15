@@ -7,10 +7,6 @@ import { getBasketPrice } from "../Context API Components/StateProviderProps";
 
 const Subtotal = () => {
   const [{ basket }] = useStateValue();
-  // var sum = 0;
-  // for (let i = 0; i < basket.length; i++) {
-  //   sum += basket[i].price;
-  // }
   return (
     <div className="subtotal">
       <CurrencyFormat
