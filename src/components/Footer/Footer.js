@@ -17,7 +17,7 @@ const Footer = () => {
             line1="About Us"
             line2="Careers"
             line3="Press Releases"
-            line4="Amazon Cares"
+            line4="Shop and Save Cares"
             line5="Gift a Smile"
           />
           <FooterInfo
@@ -28,11 +28,11 @@ const Footer = () => {
           />
           <FooterInfo
             title="Make Money with Us"
-            line1="Sell on Amazon"
-            line2="Sell under Amazon Accelerator"
-            line3="Amazon Global Selling"
+            line1="Sell on Shop and Save"
+            line2="Shop under Save and Save Accelerator"
+            line3="A Global Selling"
             line4="Become an Affiliate"
-            line5="Fulfilment by Amazon"
+            line5="Fulfilment by Shop and Save"
           />
         </div>
       </div>

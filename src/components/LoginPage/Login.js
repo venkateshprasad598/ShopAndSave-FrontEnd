@@ -62,16 +62,15 @@ const Login = () => {
             />
           </div>
           <button onClick={signIn} className="login__signInButton">
-            {" "}
             Sign In
           </button>
           <p className="login__terms">
-            By signing-in you agree to the Demo AMAZON Conditions of Use & Sale.
-            Please see our Privacy Notice, our Cookies Notice and our
+            By signing-in you agree to the Demo Shop and Save Conditions of Use
+            & Sale. Please see our Privacy Notice, our Cookies Notice and our
             interest-Based Ads Notice.
           </p>
           <button onClick={signUp} className="login__createButton">
-            Create Your Demo Amazon Account
+            Create Your Demo Account
           </button>
         </form>
       </div>

@@ -4,7 +4,7 @@
 }
 
 .footer__backToTopText {
-  background-color: #37475a;
+  background-color: #315785;
   height: 50px;
   margin-top: 40px;
   display: flex;
@@ -17,7 +17,7 @@
 }
 
 .footer__backToTopText:hover {
-  background-color: #495a6d;
+  background-color: #396ba8;
 }
 
 .footer__Info {
@@ -28,20 +28,20 @@
 }
 
 .footer__socialInfo {
-  background-color: #232f3e;
+  background-color: #143763;
   height: 300px;
   display: flex;
   flex-direction: column;
 }
 .footer__bottom {
   margin-top: 20px;
-  background-color: #131a22;
+  background-color: #19539b;
   height: 200px;
 }
 
 @media (max-width: 700px) {
   .footer__socialInfo {
-    background-color: #232f3e;
+    background-color: #143763;
     min-height: 700px;
     display: flex;
     flex-direction: column;
