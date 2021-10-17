@@ -7,7 +7,7 @@ const Home = () => {
     <div className="home">
       <img
         className="home__img"
-        src="https://m.media-amazon.com/images/I/91xS6KMUwsL._SX3000_.jpg" //Banner Image
+        src="https://images-eu.ssl-images-amazon.com/images/G/31/img20/Wireless/SamsungBAU/S20FE/Pre-Order/V253215456_IN_WLME_SamsungGalaxy_S20_GA__S20-FE_1242x450._SX1242_CB403247530_.jpg" //Banner Image
         alt=""
       />
 

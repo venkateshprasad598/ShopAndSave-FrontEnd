@@ -4,9 +4,8 @@
 }
 .home__img {
   width: 100%;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-  z-index: -1;
-  margin-bottom: -300px;
+  height: 400px;
+  object-fit: cover;
 }
 
 .home__row {
@@ -16,14 +15,6 @@
 }
 
 @media (max-width: 800px) {
-  .home__img {
-    /* width: 500px; */
-    height: 200px;
-    object-fit: cover;
-    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    z-index: -1;
-    margin-bottom: -100px;
-  }
   .home__row {
     display: flex;
     flex-direction: column;
