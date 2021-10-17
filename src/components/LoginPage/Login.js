@@ -20,7 +20,6 @@ const Login = () => {
         }
       })
       .catch((error) => console.alert(error.message));
-    //some Login Logic
   };
   const signUp = (e) => {
     e.preventDefault();

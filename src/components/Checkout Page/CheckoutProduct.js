@@ -5,8 +5,6 @@ import "./CheckoutProduct.css";
 const CheckoutProduct = ({ id, title, image, price, rating }) => {
   const [{ basket }, dispatch] = useStateValue();
 
-  //   console.log(id);
-
   const removeFromBasket = () => {
     dispatch({ type: "REMOVE", id: id });
   };
